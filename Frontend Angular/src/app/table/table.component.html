@@ -1,0 +1,7 @@
+  <div class="row" *ngFor="let row of indices">
+      <app-cell class="col"
+          *ngFor="let col of indices"
+          [row]="row" [col]="col"
+           #tableCells>
+      </app-cell>
+  </div>

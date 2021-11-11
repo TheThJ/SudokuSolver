@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.component.css">
+    <title>Sudoku-Solver</title>
+  </head>
+  <body>
+    <div class="control">
+      <h1>Sudoku-Solver</h1>
+      <div class="btn-group1">
+        <button class="button1" (click)="solveTable()">Solve</button>
+        <button class="button2" (click)="clearTable()">Clear</button>
+      </div>
+    </div>
+    <app-table #table></app-table>
+  </body>
+</html>

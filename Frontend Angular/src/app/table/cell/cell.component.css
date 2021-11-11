@@ -1,0 +1,15 @@
+p {
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+input {
+    width: 10vh;
+    height: 10vh;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+}
+
